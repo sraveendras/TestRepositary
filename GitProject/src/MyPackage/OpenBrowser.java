@@ -12,9 +12,14 @@ public class OpenBrowser {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://google.com");
+		
+		//Display the Current title
 		System.out.println(driver.getCurrentUrl());
-			
+		
+		//Display the Current title	
 		System.out.println(driver.getPageSource());
+		
+		
 	}
 
 }
