@@ -19,6 +19,8 @@ public class OpenBrowser {
 		//Display the Current title	
 		System.out.println(driver.getPageSource());
 		
+		driver.navigate().refresh();
+		
 		
 	}
 
