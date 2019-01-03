@@ -14,7 +14,7 @@ public class OpenBrowser {
 		driver.get("http://google.com");
 		System.out.println(driver.getCurrentUrl());
 			
-		
+		System.out.println(driver.getPageSource());
 	}
 
 }
