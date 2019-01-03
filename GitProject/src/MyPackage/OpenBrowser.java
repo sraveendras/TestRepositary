@@ -21,6 +21,7 @@ public class OpenBrowser {
 		
 		driver.navigate().refresh();
 		
+		driver.navigate().forward();
 		
 	}
 
